@@ -1,7 +1,7 @@
 class Artist 
-  attr_reader :name 
+  attr_accessor :name 
   
-  def name
+  def name(name)
     @name=name
   end
   
